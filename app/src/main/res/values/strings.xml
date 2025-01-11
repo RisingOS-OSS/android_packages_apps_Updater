@@ -30,9 +30,9 @@
         Optional placeholders replaced at runtime:
           {device} - Device name
     -->
-    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/main/OTA/device/GAPPS/{device}.json</string>
-    <string name="updater_server_url_core" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/main/OTA/device/CORE/{device}.json</string>
-    <string name="updater_server_url_vanilla" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/main/OTA/device/VANILLA/{device}.json</string>
+    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/fifteen/OTA/device/GAPPS/{device}.json</string>
+    <string name="updater_server_url_core" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/fifteen/OTA/device/CORE/{device}.json</string>
+    <string name="updater_server_url_vanilla" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/official_devices/fifteen/OTA/device/VANILLA/{device}.json</string>
 
     <string name="verification_failed_notification">Verification failed</string>
     <string name="verifying_download_notification">Verifying update</string>
