@@ -65,10 +65,6 @@ public class Utils {
     private static String mBuildType;
     private static String mForum;
     private static String mTelegram;
-    private static String mGapps;
-    private static String mFirmware;
-    private static String mModem;
-    private static String mBootloader;
     private static String mRecovery;
     private static String mPaypal;
 
@@ -108,10 +104,6 @@ public class Utils {
         mBuildType = object.getString("buildtype");
         mForum = object.getString("forum");
         mTelegram = object.getString("telegram");
-        mGapps = object.getString("gapps");
-        mFirmware = object.getString("firmware");
-        mModem = object.getString("modem");
-        mBootloader = object.getString("bootloader");
         mRecovery = object.getString("recovery");
         mPaypal = object.getString("paypal");
         return update;
@@ -150,7 +142,7 @@ public class Utils {
             }
             try {
                 UpdateInfo update = parseJsonUpdate(updatesList.getJSONObject(i));
-                if ((!compatibleOnly || isCompatible(update)) 
+                if ((!compatibleOnly || isCompatible(update))
                     && mMaintainer.equals(MAINTAINER_NAME)) {
                     updates.add(update);
                 } else {
@@ -457,22 +449,6 @@ public class Utils {
 
     public static String getTelegram() {
         return mTelegram;
-    }
-
-    public static String getGapps() {
-        return mGapps;
-    }
-
-    public static String getFirmware() {
-        return mFirmware;
-    }
-
-    public static String getModem() {
-        return mModem;
-    }
-
-    public static String getBootloader() {
-        return mBootloader;
     }
 
     public static String getRecovery() {
